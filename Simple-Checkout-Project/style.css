@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+.card {
+    height: 460px;
+    width: 530px;
+    font-family: 'Rubik', sans-serif;
+    transition: all 0.5s;
+    margin-top: 70px
+}
+
+.features p {
+    font-weight: bold
+}
+
+.features h2 {
+    font-weight: 900
+}
+
+.discount {
+    width: 100%
+}
+
+.discount span {
+    margin-right: 10px;
+    cursor: pointer
+}
+
+.button button:hover {
+    background-color: #0d0c22 !important;
+    color: #fff
+}
+
+.content_modal {
+    top: 20px;
+}
+
+.green {
+    background-color: green !important;
+}
+
+.tick {
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all 0.5s
+}
+
+@media(max-width:530px) {
+    .card {
+        width: 320px
+    }
+
+    .right img {
+        margin-top: 30px;
+        width: 120px
+    }
+
+    .content_modal {
+        width: 320px !important
+    }
+}
